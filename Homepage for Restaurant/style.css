@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    background-color: #ec0d18e8;
+    color: #E7E7E7;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+}
+
+.navbar_list ul {
+    display: flex;
+    column-gap: 10px;
+    margin-left: -30%;
+    list-style-type: none;
+}
+
+.navbar_list li a {
+    text-decoration: none;
+    color: #E7E7E7;
+}
+
+.navbar_list li a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+.herosection {
+    text-align: center;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.herosection p {
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.herosection a {
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #E7E7E7;
+}
+
+.aboutsection {
+    display: flex;
+    align-items: center;
+    padding: 50px 30px;
+    background-color: #f3f3f3c0;
+    margin-top: 30px;
+}
+
+.text {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    font-family: "big Shoulder Text", cursive;
+    font-size: 1em;
+    text-transform: uppercase;
+    justify-content: space-between;
+}
+
+.aboutsection img {
+    margin-left: 40%;
+    margin-top: 10px;
+}
+
+.aboutsection p {
+    text-align: center;
+    font-family: "big Shoulder Text", cursive;
+
+}
